@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit_core >=3.11,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "AlertHooks"
+authors = [{name = "MycoG", email = "myco.torres@gmail.com"}]
+license = "MIT"
+license-files = ["LICENSE"]
+dynamic = ["version", "description"]
+dependencies = ['platformdirs','discord-webhook']
+
+[project.urls]
+Home = "https://github.com/MycoG/alertHooks"
+
+[project.scripts]
+alertHooks = "AlertHooks.script:main"

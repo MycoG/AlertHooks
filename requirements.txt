@@ -1,0 +1,12 @@
+-e git+https://github.com/MycoG/alertHooks.git@7873e7d4c511d08e667e657792fe882b0e8b448b#egg=AlertHooks
+certifi==2026.2.25
+charset-normalizer==3.4.5
+discord-webhook==1.4.1
+docutils==0.22.4
+flit==3.12.0
+flit_core==3.12.0
+idna==3.11
+platformdirs==4.9.4
+requests==2.32.5
+tomli_w==1.2.0
+urllib3==2.6.3
