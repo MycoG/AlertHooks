@@ -1,2 +1,3 @@
 .venv
 .pypirc
+AlertHooks/__pycache__/*

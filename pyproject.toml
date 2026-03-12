@@ -8,7 +8,7 @@ authors = [{name = "MycoG", email = "myco.torres@gmail.com"}]
 license = "MIT"
 license-files = ["LICENSE"]
 dynamic = ["version", "description"]
-dependencies = ['platformdirs','discord-webhook']
+dependencies = ['platformdirs','discord-webhook', 'cryptography']
 
 [project.urls]
 Home = "https://github.com/MycoG/alertHooks"
